@@ -170,7 +170,7 @@ h2{
     line-height: 32px;
     margin-bottom: 24px;
     color: #000;
-    font-family: Android Euclid,Roboto,Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     font-weight: 400;
     margin: 0 0 24px;
     display: block;
@@ -373,6 +373,15 @@ li {
     transition: opacity 1.5s, visibility 1.5s, max-height .5s, padding .5s;
     visibility: hidden;
 }
+
+
+footer-default-title {
+    cursor: auto;
+    height: 25px;
+    position: relative;
+font-family: Helvetica,Arial,sans-serif;}
+
+
 .footer-default-item {
     align-items: center;
     display: flex;
@@ -424,13 +433,7 @@ li {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-}
+
 .body{
   display: flex;
   /* min-height: 100vh; */
@@ -438,6 +441,8 @@ li {
   justify-content: center;
   background: #ffff;
   position: relative;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
 }
 .body::before{
   content: '';
@@ -516,7 +521,7 @@ li {
   padding-right:15px;
   padding-top:20px;
 }
-.button label{
+.button label {
  
   position: relative;
   height: 15px;
@@ -527,19 +532,12 @@ li {
   cursor: pointer;
 /*   transition: all 0.8s; */
 }
-.button label.active{
-  width: 15px;
-}
+
 #one:checked ~ .button .one{
   pointer-events:none;
   opacity:0;
 }
-/* #one:checked ~ .button .two{
-  width: 15px;
-}
-#two:checked ~ .button .one{
-  width: 15px;
-} */
+
 #two:checked ~ .button .two{
  
     pointer-events:none;
