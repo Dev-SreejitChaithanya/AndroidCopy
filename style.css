@@ -76,7 +76,7 @@ body{
 }
 html, body {
     color: #404040;
-    font-family: var(--font-family-base);
+    font-family: Helvetica,Arial,sans-serif;
     overflow-x: hidden;
 }
  h1{
@@ -286,7 +286,7 @@ h2{
 }
 .footer{
     background-color: var(--color-is-2);
-    font-family: var(--font-family-base);
+    font-family: Helvetica,Arial,sans-serif;
     opacity: 1;
     padding-top: 60px;
     position: relative;
@@ -304,10 +304,8 @@ h2{
     grid-gap: 30px;
     grid-template-columns: repeat(5, 1fr);
     padding: 0 0 80px;
-    align-items: flex-start;
-    display: grid;
-    grid-column: 1/-1;
-    font-family: Android Euclid,Roboto,Helvetica,Arial,sans-serif ;
+    
+    font-family: Helvetica,Arial,sans-serif ;
 }
 .footeritem
  {
@@ -315,7 +313,7 @@ h2{
     display: flex;
     flex-flow: column;
     justify-content: center;
-    font-family: Android Euclid,Roboto,Helvetica,Arial,sans-serif ;
+    font-family: Helvetica,Arial,sans-serif ;
 }
 h3 {
     display: block;
@@ -349,7 +347,7 @@ li {
     border-bottom-color: #c6c6c6;
     color: var(--color-is-1);
     display: flex;
-    font: 500 0.75rem/1rem var(--font-family-headings);
+    font: 500 0.75rem/1rem Helvetica,Arial,sans-serif;
     justify-content: space-between;
     letter-spacing: 0.0625rem;
     padding: 40px 5px 8px 0;
@@ -359,7 +357,7 @@ li {
     text-transform: uppercase;
     width: 100%;
     appearance: auto;
-    writing-mode: horizontal-tb !important;
+    writing-mode: horizontal-tb;
     text-rendering: auto;
     text-indent: 0px;
     text-shadow: none;
@@ -367,15 +365,30 @@ li {
     cursor: default;
 }
 .footer-default-nav-subitem{
-    max-height: 0;
-    opacity: 0;
-    padding: 0;
-    transition: opacity 1.5s, visibility 1.5s, max-height .5s, padding .5s;
-    visibility: hidden;
+    margin-top: 1rem;
+    overflow: visible;
+    max-height: 750px;
+    opacity: 1;
+    padding: 20px 0 0;
+    position: relative;
+    transition: opacity 1s, visibility 1s, max-height .75s ease-in, padding .75s;
+    width: 100%;
+    font-family:Helvetica,Arial,sans-serif;
+    
+    
 }
 
+.footer-default-nav-list
+{
+    font-size: 0.875rem;
+    padding: 0 26px 0 0;
+    margin-bottom: 16px;
+    position: relative;
+    font-family:Helvetica, Arial, sans-serif;
 
-footer-default-title {
+}
+
+.footer-default-title{
     cursor: auto;
     height: 25px;
     position: relative;
@@ -387,6 +400,8 @@ font-family: Helvetica,Arial,sans-serif;}
     display: flex;
     flex-flow: column;
     justify-content: center;
+    
+
 }
 .footer-default-button {
     background-color:#fff;
@@ -394,7 +409,7 @@ font-family: Helvetica,Arial,sans-serif;}
     border-bottom-color: #c6c6c6;
     color: #000;
     display: flex;
-    font: 500 0.75rem/1rem var(--font-family-headings);
+    font: 500 0.75rem/1rem Helvetica,Arial,sans-serif ;;
     justify-content: space-between;
     letter-spacing: 0.0625rem;
     padding: 40px 5px 8px 0;
@@ -411,8 +426,8 @@ font-family: Helvetica,Arial,sans-serif;}
     color: #073042;
     display: inline-flex;
     font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
+    font-weight: 400;
+    line-height: 1rem;
     transition: color .3s ease-in;
 }
 
