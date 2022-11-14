@@ -574,3 +574,120 @@ input[type="radio"]{
     font-size: 2rem;
     font-weight: 800;
 }
+
+.footer-default-colophon{
+background-color:#fff;
+padding: 40px 16px;
+width: 100%;
+font-family: Helvetica,Arial, sans-serif;
+
+
+}
+
+.footer-default-links {
+    max-width: 1200px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    font-family: Helvetica,Arial, sans-serif;
+    grid-auto-flow: dense;
+}
+.footer-default-policy {
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    font-family: Helvetica,Arial, sans-serif;
+    opacity: 1;
+    padding-top: 60px;
+    position: relative;
+    z-index: 30;
+    background-color: #fff;
+    margin: 0 24px 0 0;
+}
+
+/* margin: 24px 24px 0 0;
+display: inline-block;
+position: relative; */
+
+.social-network{
+    grid-row: 2;
+    justify-content: flex-end;
+    margin: 0;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+}
+.social-network-item {
+    height: 24px;
+    margin: 0 30px 0 0;
+    width: 24px;
+}
+
+.footer-language-selector{
+margin: 0 24px 0 0;
+display: inline-block;
+
+    position: relative;
+
+}
+
+.footer-default-footnote {
+    padding-right: 40px;
+    width: 100%;
+    color: #000;
+    font: 0.75rem/1.7 Helvetica,Arial, sans-serif;
+    margin: 16px 0 0;
+    
+}
+.pp{
+    line-height: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    cursor: default;
+}
+.language-selector-select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: 0;
+    box-sizing: content-box;
+    color: #000;
+    cursor: pointer;
+    font: 500 1rem/1.4 Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    margin: 0 8px 0 5px;
+    max-width: 100%;
+    padding-right: 21px;
+    overflow: visible !important;
+    
+}
+form{
+    display: block;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
